@@ -5,6 +5,7 @@ import Gallery from "./components/Gallery.jsx";
 import Services from "./components/Services.jsx";
 import ShowDeck from "./components/ShowDeck.jsx";
 import EnterSite from "./components/EnterSite.jsx";
+import Landing from "./components/Landing.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route>
             <Route path="/" element={<EnterSite />} />
+            <Route path="Home" element={<Landing />} />
             <Route path="/AboutPigmentPond" element={<AboutPigmentPond />} />
             <Route path="/Contact" element={<ContactPage />} />
             <Route path="/Gallery" element={<Gallery />} />
