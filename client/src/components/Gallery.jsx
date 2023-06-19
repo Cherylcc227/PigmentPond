@@ -87,6 +87,17 @@ margin-top: 20px;
 display: flex;
 gap: 20px;
 justify-content: center;
+@media (min-width: 320px) {
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 768px) {
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 1200px) {
+  flex-direction: row;
+}
 `
 
 const VideoContainer = Styled.div
@@ -95,7 +106,17 @@ display: flex;
 gap: 10px;
 justify-content: center;
 margin-bottom: 50px;
+@media (min-width: 320px) {
+  flex-direction: column-reverse;
+}
 
+@media (min-width: 768px) {
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 1200px) {
+  flex-direction: row;
+}
 `
 
 

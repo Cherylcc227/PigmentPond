@@ -8,7 +8,7 @@ const Services = () => {
     <div>
       <Masthead/>
       <ServicesContainer>
-      <h1 style={{color:"red"}}> Ready to take a dip into the Pigment Pond? <br/>Take a gander at the current list of provided services </h1>
+      <h1 style={{color:"red"}}> Ready to take a dip into the <br/>Pigment Pond? <br/>Take a gander at the current list of provided services </h1>
       <div>
         <h2> Liquid Light Projector </h2>
         <p> $70 </p>
@@ -78,5 +78,11 @@ export default Services
 const ServicesContainer = Styled.div
 `margin-top: 100px;
 color: white;
-font-size: x-large
+width: 100%;
+@media (min-width: 320px) {
+  font-size: large;
+}
+@media (min-width: 1200px) {
+  font-size: x-large;
+}
 `

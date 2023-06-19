@@ -17,8 +17,7 @@ const AboutPigmentPond = () => {
         <PigmentPondMainPhotoImg
         src={PigmentPond1}
         alt="Pigment Pond"
-        width="40%"
-        height="40%"
+
         />
       </AboutContainer>
       <Footer/>
@@ -33,8 +32,8 @@ const AboutContainer = Styled.div
 display: flex;
 flex-direction: row;
 gap: 50px;
-// justify-content: center;
 margin-top:100px;
+width: 100%;
   @media (min-width: 320px) {
     flex-direction: column-reverse;
   }
@@ -52,24 +51,36 @@ margin-top:100px;
 
 const PigmentPondMainPhotoImg = Styled.img
 `
-margin: auto;
+// margin: auto;
 border-radius: 50px;
 @media (max-width: 320px) {
-  width: 300px;
-  height: 400px;
+  width: 30%;
+  height: 30%;
 }
-
+@media (min-width: 790px) {
+  width: 60%;
+  height: 60%;
+}
+@media (min-width: 1200px) {
+  width: 40%;
+  height: 40%;
+}
 `
 
 const Description = Styled.div `
 width: 80%;
-font-size: small;
 margin-left: auto;
 margin-right: auto;
 margin-top: 5px;
 
+@media (min-width: 320px) {
+  flex-direction: column-reverse;
+  font-size: larger;
+  margin-bottom: 20px;
+}
+
 @media (min-width: 1200px) {
-  font-size: 35px;
+  font-size: 40px;
   width: 50%;
   // margin: auto;
   padding:5px;
