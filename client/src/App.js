@@ -1,4 +1,3 @@
-// import logo from "./logo.svg";
 import "./App.css";
 import landingPage from "./components/landingPage.jsx";
 import AboutPigmentPond from "./components/AboutPigmentPond.jsx";
