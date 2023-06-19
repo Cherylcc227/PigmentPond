@@ -9,7 +9,7 @@ const EnterSite = () => {
     <div>
       <Text>
       <h1 class="animate__animated animate__heartBeat">PIGMENT POND</h1>
-       <Link to="/Home" className="link" style={{ fontSize: '500px' }} >ENTER</Link>
+       <Link to="/Home" className="link" style={{ fontSize: '200px' }} >ENTER</Link>
       </Text>
       <img src={Enter} alt="Enter" width="100%"/>
     </div>
