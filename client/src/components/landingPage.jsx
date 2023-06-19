@@ -6,7 +6,7 @@ import Footer from "./Footer.jsx";
 import "animate.css"
 
 
-const landingPage = () => {
+const LandingPage = () => {
   return (
     <div>
       <Masthead/>
@@ -25,7 +25,7 @@ const landingPage = () => {
   )
 }
 
-export default landingPage
+export default LandingPage
 
 const Text = Styled.div
 `
