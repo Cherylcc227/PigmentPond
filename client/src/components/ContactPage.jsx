@@ -31,7 +31,7 @@ const ContactPage = () => {
         <br/>
         <br/>
         <h1>
-        To contact feel free to reach out on IG!
+        Feel free to reach out on IG!
       </h1>
 
       </div>
