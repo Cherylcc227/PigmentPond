@@ -31,4 +31,8 @@ const MastheadContainer = Styled.div`
   font-weight: 600;
   background: black;
   height: 94px;
+  @media (min-width: 320px) {
+    flex-direction: column;
+    height: 100%;
+  }
 `
