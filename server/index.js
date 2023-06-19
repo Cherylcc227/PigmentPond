@@ -4,8 +4,14 @@ const PORT = process.env.PORT || 4002;
 
 const app = express();
 
-app.get("/test", (req, res) => {
-  res.json({ message: "Hello from server!" });
+app.use(express.static(path.resolve(__dirname, "../client/build")));
+
+// app.get("/test", (req, res) => {
+//   res.json({ message: "Hello from server!" });
+// });
+
+app.get("*", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
 });
 
 app.listen(PORT, () => {
