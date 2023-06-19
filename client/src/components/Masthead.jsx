@@ -21,7 +21,6 @@ export default Masthead
 const MastheadContainer = Styled.div`
   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   font-size: 25px;
@@ -33,6 +32,10 @@ const MastheadContainer = Styled.div`
   height: 94px;
   @media (min-width: 320px) {
     flex-direction: column;
+    height: 100%;
+  }
+  @media (min-width: 1200px) {
+    flex-direction: row;
     height: 100%;
   }
 `
