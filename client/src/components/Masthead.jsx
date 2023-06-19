@@ -23,7 +23,7 @@ const MastheadContainer = Styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 25px;
+  // font-size: 25px;
   margin-bottom: 24px;
   paddin: 24px;
   width: 100%;
@@ -33,9 +33,16 @@ const MastheadContainer = Styled.div`
   @media (min-width: 320px) {
     flex-direction: column;
     height: 100%;
+    font-size: 25px;
+  }
+  @media (min-width: 720px) {
+    flex-direction: row;
+    height: 100%;
+    font-size: 15px;
   }
   @media (min-width: 1200px) {
     flex-direction: row;
     height: 100%;
+    font-size: 25px;
   }
 `
