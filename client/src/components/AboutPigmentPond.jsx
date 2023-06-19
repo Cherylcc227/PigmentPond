@@ -10,7 +10,7 @@ const AboutPigmentPond = () => {
       <Masthead/>
       <AboutContainer>
         <Description>
-          <h2>About Pigment Pond</h2>
+          <h2 style={{color: 'darkRed'}}>About Pigment Pond</h2>
           Hailing from the East Coast, Pigment Pond landed in the Denver area in 2019.  He has become a notable visual stage setter, collaborating with over 50 local Denver bands with his light shows and videography. Pigment Pond combines love of music and visual displays to deliver energetic, colorfully ecclectic backdrops. Hanging behind a projector, this mad scientist wields anything from pigments to crystals and glass creating scenes that will entrance you. Need a videographer? Pigment Pond's VHS footage adds extra
           pizazz and personality to your musical memory.
         </Description>

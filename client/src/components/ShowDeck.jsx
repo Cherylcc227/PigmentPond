@@ -7,10 +7,12 @@ const ShowDeck = () => {
     <div>
       <Masthead/>
 
-      <h1 style={{color: "red"}}> Upcoming Shows </h1>
-        <li>Temples, June 19</li>
-        <li>Human Barbie, June 20</li>
-        <li>WonderJam Festival, August 5</li>
+      <h1 style={{color: "red", fontSize: "80px"}}> Upcoming Shows </h1>
+        <p style={{fontSize: "50px"}}>Temples <br/> June 19 <br/> Bluebird Theatre <br/> Denver</p>
+        <br/>
+        <p style={{fontSize: "50px"}}>Human Barbie <br/> June 20 <br/> Ogden Theatre <br/> Denver</p>
+        <br/>
+        <p style={{fontSize: "50px"}}>WonderJam Festival <br/> August 5 <br/> WonderLand Brewery <br/> Westminster</p>
       <br/>
       <h1 style={{color: "gray"}}> Past Collabs (still compiling)</h1>
         <li> Magnolia Grove </li>
