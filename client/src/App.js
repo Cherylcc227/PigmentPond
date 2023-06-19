@@ -1,6 +1,6 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import LandingPage from "./components/LandingPage.jsx";
+import landingPage from "./components/landingPage.jsx";
 import AboutPigmentPond from "./components/AboutPigmentPond.jsx";
 import ContactPage from "./components/ContactPage.jsx";
 import Gallery from "./components/Gallery.jsx";
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route>
             <Route path="/" element={<EnterSite />} />
-            <Route path="/Home" element={<LandingPage />} />
+            <Route path="/Home" element={<landingPage />} />
             <Route path="/AboutPigmentPond" element={<AboutPigmentPond />} />
             <Route path="/Contact" element={<ContactPage />} />
             <Route path="/Gallery" element={<Gallery />} />
