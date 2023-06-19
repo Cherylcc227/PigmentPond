@@ -16,7 +16,7 @@ const ShowDeck = () => {
       <br/>
       <h1 style={{color: "gray"}}> Past Collabs (still compiling)</h1>
         <li> Magnolia Grove </li>
-        <li> Maybe Fern </li>
+        <li> May Be Fern </li>
         <li> Riding Carpets </li>
         <li> Lounge Drugs </li>
         <li> Crooked Rugs </li>
