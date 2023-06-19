@@ -2,13 +2,14 @@ import React from "react";
 import {Link} from "react-router-dom";
 import Enter from "../images/Enter.jpg"
 import Styled from "styled-components"
+import "animate.css"
 
 const EnterSite = () => {
   return (
     <div>
       <Text>
-      <h1>PIGMENT POND</h1>
-       <Link to="/Home" className="link" style={{ fontSize: '500px' }}>ENTER</Link>
+      <h1 class="animate__animated animate__heartBeat">PIGMENT POND</h1>
+       <Link to="/Home" className="link" style={{ fontSize: '500px' }} >ENTER</Link>
       </Text>
       <img src={Enter} alt="Enter" width="100%"/>
     </div>

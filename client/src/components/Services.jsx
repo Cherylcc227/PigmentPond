@@ -8,7 +8,7 @@ const Services = () => {
     <div>
       <Masthead/>
       <ServicesContainer>
-      <h1 style={{color:"red"}}> Ready to take a dip into the Pigment Pond? Take a gander at the current list of provided services </h1>
+      <h1 style={{color:"red"}}> Ready to take a dip into the Pigment Pond? <br/>Take a gander at the current list of provided services </h1>
       <div>
         <h2> Liquid Light Projector </h2>
         <p> $70 </p>
@@ -16,6 +16,7 @@ const Services = () => {
           Armed with two projectors, petri dishes, vibrant pigments and liquid mediums, psychedilic ameabas dance on any surface in a dark room.  Perfectly pairs with musical tunes.
         </p>
       </div>
+      <br/>
       <div>
         <h2> Kaleidescope Party </h2>
         <p> $70 </p>
@@ -23,6 +24,7 @@ const Services = () => {
           Raw materials are light manipulated to create wicked mind bending geometric slithers to shatter your mind.
         </p>
       </div>
+      <br/>
       <div>
         <h2> VHS Camera Shoot </h2>
         <p> $50 </p>
@@ -30,6 +32,7 @@ const Services = () => {
           For that feel good vintage vibe, multiple camera angles allow a unique cinematic experience for any event.
         </p>
       </div>
+      <br/>
       <div>
         <h2> Full Monty </h2>
         <p> $200 </p>
@@ -75,5 +78,5 @@ export default Services
 const ServicesContainer = Styled.div
 `margin-top: 100px;
 color: white;
-font-size: large
+font-size: x-large
 `

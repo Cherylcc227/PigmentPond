@@ -4,6 +4,7 @@ import {SocialIcon} from "react-social-icons"
 import Styled from "styled-components"
 import Footer from "./Footer.jsx";
 import Coffee from "../images/Coffee.jpg"
+import "animate.css"
 
 const ContactPage = () => {
   return (
@@ -16,7 +17,7 @@ const ContactPage = () => {
       <a href="https://www.buymeacoffee.com/PigmentPond" style={{color: "yellow"}} target="blank_"> <br/> Keep Pigment Pond Caffeinated! </a>
       </div>
       <br/>
-      <img src={Coffee} alt="Coffee" height="300px" width="300px" style={{borderRadius: "50px"}}/>
+      <img class="animate__animated animate__flash" src={Coffee} alt="Coffee" height="300px" width="300px" style={{borderRadius: "50px"}}/>
       <br/>
       <br/>
       <br/>
