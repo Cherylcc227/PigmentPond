@@ -31,7 +31,7 @@ const Text = Styled.div
 `
 position: absolute;
 z-index: 2;
-font-size: 50px;
+// font-size: 50px;
 margin-top: 25px;
 color: darkblue;
 font-weight: 900;
@@ -42,7 +42,7 @@ font-weight: 900;
   font-size: large;
 }
 @media (min-width: 1200px) {
-  font-size: 90px;
+  font-size: xxx-large
 }
 `
 
