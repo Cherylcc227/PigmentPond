@@ -69,7 +69,7 @@ margin-right: auto;
 margin-top: 5px;
 
 @media (min-width: 1200px) {
-  font-size: 40px;
+  font-size: 35px;
   width: 50%;
   // margin: auto;
   padding:5px;
