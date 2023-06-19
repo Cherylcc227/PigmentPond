@@ -14,11 +14,11 @@ const LandingPage = () => {
       <Text>
         <h1 class="animate__animated animate__rotateIn">Step into a world of swirly delights...</h1>
       <br/>
-      <p style={{width: "60%", margin: "auto", color: "black"}}>
+      <p style={{margin: "auto", color: "black"}}>
         We are continuously working on the site and excited to share Pigment Pond and his surreal menagerie of colors.  Stay tuned as we improve our website and make it mobile responsive.  <br/> Version 2 coming soon!
       </p>
       </Text>
-      <img src={LiquidSample} alt="LiquidSample" width="100%"/>
+      <LandingImg src={LiquidSample} alt="LiquidSample" />
       </div>
       <Footer/>
     </div>
@@ -32,8 +32,33 @@ const Text = Styled.div
 position: absolute;
 z-index: 2;
 font-size: 50px;
-width: 100%;
 margin-top: 25px;
 color: darkblue;
 font-weight: 900;
+@media (min-width: 320px) {
+  font-size: x-large;]
+}
+@media (min-width: 790px) {
+  font-size: large;
+}
+@media (min-width: 1200px) {
+  font-size: 90px;
+}
+`
+
+
+const LandingImg = Styled.img
+`
+@media (min-width: 320px) {
+  width: 700px;
+  height: 900px;
+}
+@media (min-width: 790px) {
+  width: 100%;
+  height: 1200px;
+}
+@media (min-width: 1200px) {
+  width: 100%;
+  height: 100%;
+}
 `
